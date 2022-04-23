@@ -1,0 +1,14 @@
+Employee adinda bir class ve mmain method iceren bir EmpDriver class
+ olusturun. Bu sinif 4 data ve 5 method icermeli.
+ -Bilgiler isim, maas, caslima saatleri ve baslangic yilini icermerli
+ -Methodlar
+ 1-Employee contructori isim, maas, calsima saati ve baslangic yilini iceren 4 parametreli
+   bir constructor olmalin
+ 2-Tax methodu nda eger kisinin maasi 1000 tl den yuksekse ondan %3 vergi al
+ 3-Bonus methodunda her calisma saatine +30 tl extra odeme yapilacak. Ornegin 5 saatlik calismaya
+ 4-RaseSalary methodu olusturun. 9 ve  9 yildan az calismis ise,maasi %5,
+      10 ve  19 yillari arasi calismis ise,maasi %10,
+      20 ve uzeri calismis ise %15 arttirin
+ 5-toString methodu ile tum bu bilgileri cagirin
+
+
