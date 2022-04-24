@@ -1,6 +1,7 @@
 package Constructor;
 
 import hesapMakinesi.HesapMakinesi1;
+import maasHesaplama.Employee;
 
 public class Main {
     public static void main(String[] args) {
@@ -10,6 +11,7 @@ public class Main {
         System.out.println(makine1.sayi1);
         */
 
+
         HesapMakinesi m1=new HesapMakinesi(10,5,"siyah");//birinci makine
         System.out.println(m1.toplama());
         System.out.println(m1.carpma());
@@ -18,6 +20,8 @@ public class Main {
 
         HesapMakinesi m2=new HesapMakinesi(20,3,"mavi");//ikinci makine
         System.out.println(m2.toplama());
+        System.out.println(HesapMakinesi.PI);
+
 
     }
 

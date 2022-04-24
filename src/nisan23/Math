@@ -1,0 +1,37 @@
+Java Math Metotları
+Metot	Açıklaması	Veri Dönüş Tipi
+Math.abs(x)	X'in mutalk değerini verir	double|float|int|long
+Math.acos(x)	X'in arkkosinüsünü radyan cinsinden verir	double
+Math.asin(x)	Returns the arcsine of x, in radians	double
+Math.atan(x)	X'in arkini radyan cinsinden verir	double
+Math.atan2(y,x)	Dikdörtgen koordinatların (x, y) kutupsal koordinatlara (r, teta) dönüştürülmesinden teta açısını verir.	double
+Math.cbrt(x)	X'in küp kökünü verir	double
+Math.ceil(x)	En yakın tam sayıya yuvarlanmış x değerini verir	double
+Math.copySign(x, y)	İkinci kayan nokta y'nin işaretiyle birlikte ilk kayan nokta x'i verir	double
+Math.cos(x)	X'in kosinüsünü verir (x radyan cinsindendir)	double
+Math.cosh(x)	Çift değerin hiperbolik kosinüsünü verir	double
+Math.exp(x)	e üzeri x değerini verir	double
+Math.expm1(x)	e üzeri x 'in tersini verir	double
+Math.floor(x)	En yakın tam sayıya yuvarlanmış x değerini verir	double
+Math.getExponent(x)	X'te kullanılan yansız üssü verir	int
+Math.IEEEremainder(x, y)	IEEE 754 standardında belirtildiği gibi x ve y üzerindeki kalan işlemi hesaplar	double
+Math.log(x)	X'in doğal logaritmasını (e tabanında) verir	double
+Math.log10(x)	X'in 10 tabanındaki logaritmasını verir	double
+Math.log1p(x)	X ve 1 toplamının doğal logaritmasını (e tabanında) verir	double
+Math.max(x, y)	En yüksek değere sahip sayıyı verir	double|float|int|long
+Math.min(x, y)	En düşük değere sahip sayıyı verir	double|float|int|long
+Math.nextAfter(x, y)	X'in y yönünde bitişiğinde değen nokta sayısını verir	double|float
+Math.nextUp(x)	Pozitif sonsuzluk yönünde x'e bitişik kayan nokta değerini verir	double|float
+Math.pow(x, y)	X'in değerini y'nin üssüne döndürür	double
+Math.random()	0 ile 1 arasında rastgele bir sayı verir	double
+Math.round(x)	En yakın tam sayıya yuvarlanmış x değerini verir	int
+Math.rint()	X'e en yakın ve matematiksel tam sayıya eşit olan çift değeri verir	double
+Math.signum(x)	X'in işaretini verir	double
+Math.sin(x)	X'in sinüsünü verir (x radyan cinsindendir)	double
+Math.sinh(x)	Çift değerin hiperbolik sinüsünü verir	double
+Math.sqrt(x)	X'in karekökünü verir	double
+Math.tan(x)	Bir açının tanjantını verir	double
+Math.tanh(x)	Çift değerin hiperbolik tanjantını verir	double
+Math.toDegrees(x)	Radyan cinsinden ölçülen bir açıyı yakl. derece cinsinden ölçülen eşdeğer açı	double
+Math.toRadians(x)	Derece cinsinden ölçülen bir açıyı yakl. radyan cinsinden ölçülen açı	double
+Math.ulp(x)	X'in en az duyarlıklı (ulp) biriminin boyutunu verir
