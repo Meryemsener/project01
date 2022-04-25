@@ -3,7 +3,7 @@ package surviverGame;
 import java.util.Scanner;
 
 public class Player {
-    private int damage, healty, money;
+    private int damage, healthy, money,rHealthy;
     private String name, cName;
     private Inventory inv;
     Scanner sc = new Scanner(System.in);
@@ -50,7 +50,7 @@ public class Player {
                 break;
 
         }
-        System.out.println("Karakter : "+getcName()+"\t Hasar : "+getDamage()+"\tSaglik : "+getHealty()+"\t Para : "+getMoney());
+        System.out.println("Karakter : "+getcName()+"\t Hasar : "+getDamage()+"\tSaglik : "+getHealthy()+"\t Para : "+getMoney());
     }
 
     public int chaMenu() {
@@ -71,8 +71,9 @@ public class Player {
     public void initPlayer(String cName, int dmg, int hlthy, int mny){
         setcName(cName);
         setDamage(dmg);
-        setHealty(hlthy);
+        setHealthy(hlthy);
         setMoney(mny);
+        setHealthy(hlthy);
 
     }
     public int getDamage() {
@@ -83,12 +84,12 @@ public class Player {
         this.damage = damage;
     }
 
-    public int getHealty() {
-        return healty;
+    public int getHealthy() {
+        return healthy;
     }
 
-    public void setHealty(int healty) {
-        this.healty = healty;
+    public void setHealthy(int healthy) {
+        this.healthy = healthy;
     }
 
     public int getMoney() {
@@ -121,5 +122,13 @@ public class Player {
 
     public void setInv(Inventory inv) {
         this.inv = inv;
+    }
+
+    public int getrHealthy() {
+        return rHealthy;
+    }
+
+    public void setrHealthy(int rHealthy) {
+        this.rHealthy = rHealthy;
     }
 }
