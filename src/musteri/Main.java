@@ -1,7 +1,8 @@
-package encapsulation;
+package musteri;
 
-public class mainClass {
+public class Main {
     public static void main(String[] args) {
+
 
     }
 }
