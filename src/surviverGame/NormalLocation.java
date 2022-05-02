@@ -9,7 +9,7 @@ public abstract class NormalLocation extends Location{
     }
 
     @Override
-    public boolean getLocation() {
+    public  boolean getLocation() {
         return true;
     }
 }
