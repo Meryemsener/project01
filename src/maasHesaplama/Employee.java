@@ -48,6 +48,7 @@ public class Employee {
         System.out.println(totalSalary);//maas
         System.out.println(emp.salary+ emp.increase());//maas arti artis
         System.out.println("deneme");
+        System.out.println("deneme burcu");
     }
 
 
