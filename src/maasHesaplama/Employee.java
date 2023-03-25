@@ -49,6 +49,7 @@ public class Employee {
         System.out.println(emp.salary+ emp.increase());//maas arti artis
         System.out.println("deneme");
         System.out.println("sefa branch tan yeno kodlar");
+
     }
 
 
