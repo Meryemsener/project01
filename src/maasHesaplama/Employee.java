@@ -47,6 +47,7 @@ public class Employee {
         double totalSalary=emp.salary- emp.tax()+ emp.bonus();
         System.out.println(totalSalary);//maas
         System.out.println(emp.salary+ emp.increase());//maas arti artis
+        System.out.println("remziye ");
     }
 
 
