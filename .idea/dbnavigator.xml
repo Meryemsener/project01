@@ -50,6 +50,7 @@
       </filters>
       <sorting>
         <object-type name="COLUMN" sorting-type="NAME" />
+
         <object-type name="FUNCTION" sorting-type="NAME" />
         <object-type name="PROCEDURE" sorting-type="NAME" />
         <object-type name="ARGUMENT" sorting-type="POSITION" />
@@ -57,6 +58,7 @@
       </sorting>
       <default-editors>
         <object-type name="VIEW" editor-type="SELECTION" />
+
         <object-type name="PACKAGE" editor-type="SELECTION" />
         <object-type name="TYPE" editor-type="SELECTION" />
       </default-editors>
@@ -67,6 +69,7 @@
           <object-type name="SCHEMA" enabled="true" />
           <object-type name="USER" enabled="false" />
           <object-type name="ROLE" enabled="false" />
+
           <object-type name="PRIVILEGE" enabled="false" />
           <object-type name="CHARSET" enabled="false" />
           <object-type name="TABLE" enabled="true" />
